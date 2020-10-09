@@ -2,6 +2,7 @@
 
 You must have Node.js installed
 
+
 ### INSTALLATION
 ```sh
 npm install
@@ -12,9 +13,6 @@ OR
 ```sh
 yarn install
 ```
-
-
-To run type 'npm install' or 'yarn install'
 
 
 ### RUN
