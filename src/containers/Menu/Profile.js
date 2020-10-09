@@ -37,6 +37,14 @@ const Profile = ({
 }) => {
     const classes = useStyles();
 
+    const handleClick = () => {
+        updateTab({
+            name:"About Me",
+            index: 0,
+        });
+        updateMenu();
+    };
+
     return (
         <div className={classes.profile}>
             <img
@@ -44,13 +52,7 @@ const Profile = ({
                 src={profilepic}
                 alt='profile pic'
                 draggable='false'
-                onClick={() => {
-                    updateTab({
-                        name:"About Me",
-                        index: 0,
-                    });
-                    updateMenu();
-                }}
+                onClick={handleClick}
             />
             <div className={classes.profileText}>
                 Gary Li

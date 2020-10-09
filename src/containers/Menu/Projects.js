@@ -42,9 +42,23 @@ const Projects = ({
 }) => {
     const classes = useStyles();
 
+    const handleClick = () => updateProjectsList(!projectsList);
+
+    const handleMouseEnter = () => updateProjectsList(true);
+
+    const handleMouseLeave = () => updateProjectsList(false);
+
     return (
-        <div className={classes.projectsContainer} onClick={() => updateProjectsList(!projectsList)} onMouseEnter={() => updateProjectsList(true)} onMouseLeave={() => updateProjectsList(false)}>
-            <div className={classes.projects} style={{backgroundColor: projectsList? '#379bf8' : 'white'}}>
+        <div
+            className={classes.projectsContainer}
+            onClick={handleClick}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+        >
+            <div
+                className={classes.projects}
+                style={{backgroundColor: projectsList? '#379bf8' : 'white'}}
+            >
                 <div className={classes.projectsText}>
                     All Projects
                 </div>

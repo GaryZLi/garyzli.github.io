@@ -51,8 +51,16 @@ const ProjectsList = ({
         updateMenu();
     };
 
+    const handleMouseEnter = () => updateProjectsList(true);
+
+    const handleMouseLeave = () => updateProjectsList(false);
+
     return (
-        <div className={classes.root} onMouseEnter={() => updateProjectsList(true)} onMouseLeave={() => updateProjectsList(false)}>
+        <div
+            className={classes.root}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+        >
             {
                 tabs
                     .filter(tab => tab.name !== 'About Me' && tab.name !== 'Resume')
