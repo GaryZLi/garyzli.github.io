@@ -146,7 +146,7 @@ export const jobs = [
         company: '</develop> for good',
         location: 'United States',
         position: 'Fullstack Engineer',
-        years: 'Sep 2020 - Present',
+        years: 'Jun 2020 - Oct 2020',
         info: 'Develop for Good is one of the largest intercollegiate technology and design for social good organizations. They strive to create social impact by developing digital tools and applications pro bono for nonprofit organizations and governing agencies. Their mission is to empower the next generation of student leaders and recent graduates with the tools to use technology for social good.',
         start: {
             month: 6,
@@ -162,7 +162,7 @@ export const jobs = [
         company: 'Ippo Earrings',
         location: 'Irvine, CA',
         position: 'Fullstack Engineer',
-        years: 'Jul 2020 - Present',
+        years: 'Sep 2018 - Nov 2019',
         info: 'Ippo Earrings is a jewelry startup that sells handcrafted jewelries and customers could order custom made jewelries.',
         start: {
             month: 9,
@@ -213,7 +213,7 @@ export const jobs = [
         company: 'Blueprint at UCI',
         location: 'Irvine, CA',
         position: 'Developer',
-        years: 'Sep 2019 - Jun 2020',
+        years: 'Dec 2019 - May 2020',
         info: 'Blueprint is a club that strives to make technology accessible and useful for those who create communities and promote public welfare.',
         start: {
             month: 12,
