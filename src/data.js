@@ -149,7 +149,7 @@ export const jobs = [
         years: 'Sep 2020 - Present',
         info: 'Develop for Good is one of the largest intercollegiate technology and design for social good organizations. They strive to create social impact by developing digital tools and applications pro bono for nonprofit organizations and governing agencies. Their mission is to empower the next generation of student leaders and recent graduates with the tools to use technology for social good.',
         start: {
-            month: 9,
+            month: 6,
             year: 2020,
         },
         description: [
@@ -165,8 +165,8 @@ export const jobs = [
         years: 'Jul 2020 - Present',
         info: 'Ippo Earrings is a jewelry startup that sells handcrafted jewelries and customers could order custom made jewelries.',
         start: {
-            month: 7,
-            year: 2020,
+            month: 9,
+            year: 2018,
         },
         description: [
             'Collaborating with the product owner to create 3D jewelry models using Three.js for a better user experience.',
@@ -216,7 +216,7 @@ export const jobs = [
         years: 'Sep 2019 - Jun 2020',
         info: 'Blueprint is a club that strives to make technology accessible and useful for those who create communities and promote public welfare.',
         start: {
-            month: 9,
+            month: 12,
             year: 2019,
         },
         description: [
