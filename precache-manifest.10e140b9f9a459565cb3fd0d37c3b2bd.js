@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35ba6628523250f9792785d82192753d",
+    "revision": "745ac31bed18c76a8b51812aaf9aab1d",
     "url": "/index.html"
   },
   {
-    "revision": "3bcc0c7d969ebe603896",
+    "revision": "2f7aa5d3f8b19b37c900",
     "url": "/static/css/main.ed9409a3.chunk.css"
   },
   {
-    "revision": "61b22704a356f3272481",
-    "url": "/static/js/2.959acb33.chunk.js"
+    "revision": "8495dc4f71cec8bd3716",
+    "url": "/static/js/2.f6beb8f8.chunk.js"
   },
   {
     "revision": "90f8df42b25649df7004ebf7bb2be3cf",
-    "url": "/static/js/2.959acb33.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f6beb8f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3bcc0c7d969ebe603896",
-    "url": "/static/js/main.67662282.chunk.js"
+    "revision": "2f7aa5d3f8b19b37c900",
+    "url": "/static/js/main.1307c065.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -56,12 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Flutter.adbdc925.png"
   },
   {
-    "revision": "bbb1818d855585be081e26090010f035",
-    "url": "/static/media/Gary Li's Resume.bbb1818d.pdf"
-  },
-  {
     "revision": "0e29ee2943b541c2beb4b3282160353d",
     "url": "/static/media/IE.0e29ee29.png"
+  },
+  {
+    "revision": "eabbc60226384b7797b3e0fbcf25e0f7",
+    "url": "/static/media/Resume.eabbc602.pdf"
   },
   {
     "revision": "6fecb5959ac1adda9002a267c91b4ca4",
