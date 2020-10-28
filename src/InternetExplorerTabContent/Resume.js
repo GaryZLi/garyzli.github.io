@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from "../picSrc/Gary Li's Resume.pdf";
+import resume from "../picSrc/Resume.pdf";
 
 const mobiles = [
     /Android/i,

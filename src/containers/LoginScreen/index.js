@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {makeStyles} from '@material-ui/styles';
 import { connect } from 'react-redux';
 import {
@@ -23,11 +23,36 @@ const useStyles = makeStyles({
         userSelect: 'none',
     },
     loginButton: {
+        height: 80,
+        width: 80,
+        display: 'inline-block',
+        padding: '5px 10px',
         borderRadius: '50%',
+        boxSizing: 'border-box',
+        textDecoration: 'none',
+        fontFamily: 'Roboto, sans-serif',
+        textTransform: 'uppercase',
+        fontWeight: 400,
+        color: '#FFFFFF',
+
+        boxShadow: 'inset 0 -0.6em 0.5em -0.25em rgba(0,0,0,0.50)',
+        textAlign: 'center',
+        position: 'relative',
+
         '&:hover': {
             cursor: 'pointer',
+        },
+        '&:active': {
+            top: '0.3em',
+            boxShadow: 'none',
         }
     },
+    // loginButton: {
+    //     borderRadius: '50%',
+    //     '&:hover': {
+    //         cursor: 'pointer',
+    //     }
+    // },
     text: {
         color: 'white',
         fontSize: 20,
@@ -36,22 +61,22 @@ const useStyles = makeStyles({
 
 const LoginScreen = ({updateScreen}) => {
     const classes = useStyles();
-    const [styles, setStyles] = useState({
-        height: 80,
-        width: 80,
-    });
+    // const [styles, setStyles] = useState({
+    //     height: 80,
+    //     width: 80,
+    // });
 
-    const handleDown = () => setStyles({
-        height: 70,
-        width: 70,
-        border: '5px white solid',
-    });
+    // const handleDown = () => setStyles({
+    //     height: 70,
+    //     width: 70,
+    //     border: '5px white solid',
+    // });
 
     const handleUp = () => {
-        setStyles({
-            height: 80,
-            width: 80,
-        });
+        // setStyles({
+        //     height: 80,
+        //     width: 80,
+        // });
 
         updateScreen('desktopScreen');
     }
@@ -64,11 +89,11 @@ const LoginScreen = ({updateScreen}) => {
                     src={powerButton}
                     draggable='false'
                     alt='login button'
-                    onMouseDown={handleDown}
-                    onTouchStart={handleDown}
+                    // onMouseDown={handleDown}
+                    // onTouchStart={handleDown}
                     onMouseUp={handleUp}
                     onTouchEnd={handleUp}
-                    style={styles}
+                    // style={styles}
                 />
             </Slide>
             <Fade in timeout={5000}>

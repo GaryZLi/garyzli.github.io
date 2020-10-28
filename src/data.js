@@ -4,6 +4,7 @@ import AboutMe from './InternetExplorerTabContent/AboutMe';
 import Resume from './InternetExplorerTabContent/Resume';
 import Notapp from './InternetExplorerTabContent/Notapp';
 import Stoinks from './InternetExplorerTabContent/Stoinks';
+import CheckersAI from './InternetExplorerTabContent/CheckersAI';
 import Dindle from './InternetExplorerTabContent/Dindle';
 import DownloadWebpage from './InternetExplorerTabContent/DownloadWebpage';
 import AiMessage from './InternetExplorerTabContent/AiMessage';
@@ -14,6 +15,7 @@ import Keylogger from './InternetExplorerTabContent/Keylogger';
 import YelpDecisionMaker from './InternetExplorerTabContent/YelpDecisionMaker';
 import RobTheMafia from './InternetExplorerTabContent/RobTheMafia';
 import QuakeUp from './InternetExplorerTabContent/QuakeUp';
+import InformationRS from './InternetExplorerTabContent/InformationRS';
 
 import OaklandHigh from './picSrc/oaklandHigh.jpg';
 import Laney from './picSrc/laney.jpg';
@@ -45,101 +47,6 @@ import TranscendLife3 from './picSrc/TranscendLife3.jpg';
 import ULD from './picSrc/ULD.png';
 import WebsiteBlocker1 from './picSrc/WebsiteBlocker1.png';
 import WebsiteBlocker2 from './picSrc/WebsiteBlocker2.png';
-
-
-export const schools = [
-    {
-        name: 'University of California, Irvine',
-        icon: UCI,
-        degree: 'Bachelor of Science in Computer Science',
-        years: '2018 - 2020',
-    },
-    {
-        name: 'Laney College',
-        icon: Laney,
-        degree: 'Associate of Science - Transfer in Mathematics',
-        years: '2016 - 2018',
-    },
-    {
-        name: 'College of Alameda',
-        icon: CoA,
-        degree: 'Associate of Science - Transfer in Mathematics',
-        years: '2016 - 2018',
-    },
-    {
-        name: 'Oakland High School',
-        icon: OaklandHigh,
-        degree: 'High School Diploma',
-        years: '2012 - 2016',
-    }
-];
-
-export const skills = [
-    {
-        name: 'C++',
-        level: 75
-    },
-    {
-        name: 'ReactJS',
-        level: 90,
-    },
-    {
-        name: 'CSS3',
-        level: 60,
-    },
-    {
-        name: 'HTML5',
-        level: 70,
-    },
-    {
-        name: 'React Native',
-        level: 70,
-    },
-    {
-        name: 'C',
-        level: 60,
-    },
-    {
-        name: 'Python',
-        level: 85,
-    },
-    {
-        name: 'Javascript',
-        level: 90,
-    },
-    {
-        name: 'NodeJS',
-        level: 70,
-    },
-    {
-        name: 'ExpressJS',
-        level: 70,
-    },
-    {
-        name: 'Git',
-        level: 90,
-    },
-    {
-        name: 'AWS',
-        level: 50,
-    },
-    {
-        name: 'NoSQL',
-        level: 80,
-    },
-    {
-        name: 'SQL',
-        level: 60,
-    },
-    {
-        name: 'Java',
-        level: 65,
-    },
-    {
-        name: 'SCSS',
-        level: 60,
-    }
-];
 
 export const jobs = [
     {
@@ -279,6 +186,14 @@ export const tabs = [
         component: <QuakeUp/>,
     },
     {
+        name: 'CheckersAI',
+        component: <CheckersAI/>,
+    },
+    {
+        name: 'Info Retrieval System',
+        component: <InformationRS/>,
+    },
+    {
         name: 'Dindle',
         component: <Dindle/>,
     },
@@ -343,6 +258,25 @@ export const projects = {
         tech: [
             Python,
             TD,
+        ],
+    },
+    'Info Retrieval System': {
+        purpose: 'This information retrieval system scrapes websites for data while respecting robots.txt and storing it on the backend. When the user searches for information, it outputs the most relevant document. This is determined by utilizing inverted term index with term frequency-inverse document frequency values, cosine similarity, stemming, boolean retrieval, and tf-idf values to efficiently retrieve relevant documents.',
+        WIL: 'I learned how to create a mini Google.',
+        // additionalDetails: [
+        // ],
+        tech: [
+            Python,
+        ],
+    },
+    'CheckersAI': {
+        purpose: 'CheckersAI utilizes Alpha-beta pruning to eliminate moves to speed up searches. Breadth-First-Search is used to find the most optimal move.',
+        WIL: 'I learned that creating anything that deals with AI is a challenge, but as long as you persevere through it, you will have an amazing outcome.',
+        additionalDetails: [
+            'Plan on turning this into a web app.',
+        ],
+        tech: [
+            Python,
         ],
     },
     'Dindle': {
@@ -479,3 +413,97 @@ export const projects = {
         ],
     },
 };
+
+export const schools = [
+    {
+        name: 'University of California, Irvine',
+        icon: UCI,
+        degree: 'Bachelor of Science in Computer Science',
+        years: '2018 - 2020',
+    },
+    {
+        name: 'Laney College',
+        icon: Laney,
+        degree: 'Associate of Science - Transfer in Mathematics',
+        years: '2016 - 2018',
+    },
+    {
+        name: 'College of Alameda',
+        icon: CoA,
+        degree: 'Associate of Science - Transfer in Mathematics',
+        years: '2016 - 2018',
+    },
+    {
+        name: 'Oakland High School',
+        icon: OaklandHigh,
+        degree: 'High School Diploma',
+        years: '2012 - 2016',
+    }
+];
+
+export const skills = [
+    {
+        name: 'C++',
+        level: 75
+    },
+    {
+        name: 'ReactJS',
+        level: 90,
+    },
+    {
+        name: 'CSS3',
+        level: 60,
+    },
+    {
+        name: 'HTML5',
+        level: 70,
+    },
+    {
+        name: 'React Native',
+        level: 70,
+    },
+    {
+        name: 'C',
+        level: 60,
+    },
+    {
+        name: 'Python',
+        level: 85,
+    },
+    {
+        name: 'Javascript',
+        level: 90,
+    },
+    {
+        name: 'NodeJS',
+        level: 70,
+    },
+    {
+        name: 'ExpressJS',
+        level: 70,
+    },
+    {
+        name: 'Git',
+        level: 90,
+    },
+    {
+        name: 'AWS',
+        level: 50,
+    },
+    {
+        name: 'NoSQL',
+        level: 80,
+    },
+    {
+        name: 'SQL',
+        level: 60,
+    },
+    {
+        name: 'Java',
+        level: 65,
+    },
+    {
+        name: 'SCSS',
+        level: 60,
+    }
+];
