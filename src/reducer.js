@@ -2,7 +2,7 @@ import * as types from './action-types';
 
 export const initialState = {
     mobile: window.innerWidth < 900,
-    screen: 'desktopScreen',
+    screen: 'startupScreen',
     view: 'startupScreen',
     menu: false,
     projectsList: false,
