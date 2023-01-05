@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "745ac31bed18c76a8b51812aaf9aab1d",
+    "revision": "b0dcc883ec2fe34fa2e3b3a5dbf5829e",
     "url": "/index.html"
   },
   {
-    "revision": "2f7aa5d3f8b19b37c900",
+    "revision": "84630bb22ce328f08521",
     "url": "/static/css/main.ed9409a3.chunk.css"
   },
   {
-    "revision": "8495dc4f71cec8bd3716",
-    "url": "/static/js/2.f6beb8f8.chunk.js"
+    "revision": "c7e0cc823bc40fe72d6f",
+    "url": "/static/js/2.a19299a7.chunk.js"
   },
   {
     "revision": "90f8df42b25649df7004ebf7bb2be3cf",
-    "url": "/static/js/2.f6beb8f8.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a19299a7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f7aa5d3f8b19b37c900",
-    "url": "/static/js/main.1307c065.chunk.js"
+    "revision": "84630bb22ce328f08521",
+    "url": "/static/js/main.54d1b3f6.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -154,10 +154,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "212e8ef373f3ca426d04548140840a15",
     "url": "/static/media/oaklandHigh.212e8ef3.jpg"
-  },
-  {
-    "revision": "8c383c7c063a8d2078ac13b01c80e4ee",
-    "url": "/static/media/powerbutton.8c383c7c.jpg"
   },
   {
     "revision": "01b3cdfa28ef19e8521b944c3b7080e2",
