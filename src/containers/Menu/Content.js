@@ -93,8 +93,8 @@ const Content = ({
             <div className={classes.social}>
                 <ListWrapper className={classes.socialStyles} icon={linkedin} text='Linkedin' link='https://www.linkedin.com/in/garyzecun/' style={{backgroundColor: 'white'}}/>
                 <ListWrapper className={classes.socialStyles} icon={github} text='Github' link='https://github.com/GaryZLi' style={{backgroundColor: 'white', borderRadius: '50%'}}/>
-                <ListWrapper className={classes.socialStyles} icon={facebook} text='Facebook' link='https://www.facebook.com/gary.zecun/'/>
-                <ListWrapper className={classes.socialStyles} icon={instagram} text='Instagram' link='https://www.instagram.com/gxryli/' style={{backgroundColor: 'white', borderRadius: 13}}/>
+                <ListWrapper className={classes.socialStyles} icon={facebook} text='Facebook' link='https://www.facebook.com/garyli999999/'/>
+                <ListWrapper className={classes.socialStyles} icon={instagram} text='Instagram' link='https://www.instagram.com/garyli999999/' style={{backgroundColor: 'white', borderRadius: 13}}/>
                 <ListWrapper className={classes.socialStyles} icon={gmail} text='Email' link='mailto:gary.zecun@gmail.com'/>
                 {projectsList && <ProjectsList/>}
             </div>
